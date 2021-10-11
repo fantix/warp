@@ -41,7 +41,7 @@ tower-service = "0.3"
 tokio-tungstenite = { version = "0.13", default-features = false, optional = true }
 percent-encoding = "2.1"
 pin-project = "1.0"
-tokio-rustls = { version = "0.22", optional = true }
+tokio-rustls = { git = "https://github.com/fantix/tls", rev = "dc80b2f", optional = true }
 
 [dev-dependencies]
 pretty_env_logger = "0.4"
